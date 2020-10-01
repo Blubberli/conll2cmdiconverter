@@ -1,0 +1,26 @@
+# sent_id = 1
+# text = Wie?
+1	Wie	Wie	ADV	PWAV	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Im Mai 2010 haben wir den Geburtstagsgutschein zum 67. meines Vaters eingelöst.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	_	3	det	_	_
+3	Mai	Mai	PROPN	NN	_	15	obl	_	_
+4	2010	2010	NUM	CARD	_	3	nmod	_	_
+5	haben	haben	AUX	VAFIN	_	15	aux	_	_
+6	wir	wir	PRON	PPER	_	15	nsubj	_	_
+7	den	der	DET	ART	_	8	det	_	_
+8	Geburtstagsgutschein	Geburtstagsgutschein	NOUN	NN	_	15	obj	_	_
+9-10	zum	_	_	_	_	_	_	_	_
+9	zu	zu	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	_	11	det	_	_
+11	67	67	NUM	CARD	_	15	obl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+13	meines	mein	PRON    _	_	14	det:poss	_	_
+14	Vaters	Vater	NOUN	NN	_	11	nmod	_	_
+15	eingelöst	einlösen	VERB	VVPP	_	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	_
+
